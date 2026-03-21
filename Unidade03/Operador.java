@@ -45,7 +45,7 @@ public class Operador {
 
        boolean verdadeiro = false;
        verdadeiro = (texto3.equalsIgnoreCase(texto4));
-       System.out.println(verdade);
+       System.out.println(verdadeiro);
 }
     }
 

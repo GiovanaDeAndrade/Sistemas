@@ -29,7 +29,7 @@ public class Uni3Exe07 {
 
         System.out.println("Informe a quantidade de garrafas de 600ml: ");
         float q2 = sc.nextFloat();
-        float garrafa = 600;
+        float garrafa = 1000;
 
         System.out.println("Informe a quantidade de garrafas de 2L: ");
         float q3 = sc.nextFloat();
@@ -37,7 +37,7 @@ public class Uni3Exe07 {
 
         Uni3Exe07 conta = new Uni3Exe07(lata, garrafa, doisL, q1, q2, q3);
 
-        System.out.println("O total de litros é: " + (conta.totalDeLitros() / 1000) + "L");
+        System.out.println("O total de litros será: " + (conta.totalDeLitros() / 1000) + "L");
 
         sc.close();
         

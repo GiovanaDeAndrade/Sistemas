@@ -33,5 +33,6 @@ public CalculadoraV2(double num1, double num2){
 
     resultado = calc.dividir();
     System.out.println("A divisão é: " + resultado);
+    sc.close();
  }
 }

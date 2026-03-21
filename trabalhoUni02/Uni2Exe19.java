@@ -18,7 +18,7 @@ public class Uni2Exe19 {
 
         double D = C;
 
-        System.out.println("O valor de 'A' é " + A);
+        System.out.println("O valor de 'A' é " + A + D);
 
         sc.close();
 
