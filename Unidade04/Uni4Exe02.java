@@ -1,0 +1,24 @@
+package Unidade04;
+
+import java.util.Scanner;
+
+public class Uni4Exe02 {
+
+    public static void main(String[] args) {
+
+        try (Scanner sc = new Scanner(System.in)) {
+
+            System.out.println("Escreva um número inteiro maior que zero");
+            int numero = sc.nextInt();
+
+            if (numero % 2 == 0) {
+                System.out.println("O número é par.");
+
+            } else {
+                System.out.println("O número é ímpar.");
+            }
+
+        }
+
+    }
+}

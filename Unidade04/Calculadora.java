@@ -50,7 +50,6 @@ public class Calculadora {
 
     private static void dividir(float n1, float n2) {
         System.out.println("A divisão é: " + (n1 / n2));
-
     }
 
     private static void multiplicar(float n1, float n2) {
