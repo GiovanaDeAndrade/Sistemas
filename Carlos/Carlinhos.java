@@ -17,7 +17,7 @@ public class Carlinhos {
             System.out.println("Tem que melhorar");
 
         } else if(resposta.equalsIgnoreCase("Mais ou menos")){
-            System.out.println("Tudo bem, mas oq ue da pra melhorar?");
+            System.out.println("Tudo bem, mas oque da pra melhorar?");
 
         }
         }

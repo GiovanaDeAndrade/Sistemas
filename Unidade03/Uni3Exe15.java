@@ -32,7 +32,7 @@ public class Uni3Exe15 {
 
         System.out.println(conta.centenas() + " centena(s) " + conta.dezenas() + " dezena(s) " + conta.unidades() + " unidade(s).");
         
-
+        sc.close();
 
     }
 
