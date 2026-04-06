@@ -14,7 +14,7 @@ public class Uni4Exe09 {
             System.out.println("Digite outro numero: ");
             int n2 = sc.nextInt();
 
-            if (n1 % n2 == 0) {
+            if (n1 % n2 == 0 || n2 % n1 == 0  ) {
                 System.out.println("Os valores são multiplos.");
 
             } else {
