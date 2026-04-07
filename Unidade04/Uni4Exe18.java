@@ -18,9 +18,12 @@ public class Uni4Exe18 {
             if (dia > 0 && dia <= 10) {
                 System.out.printf("O pagamento está em dia. O valor da prestação = R$%.2f", (valor - (valor * 0.10)));
 
+            } else if(dia < 16 && dia > 9){
+                System.out.printf("O pagamento está em dia. O valor da prestação = R$%.2f" , valor);
+
             } else {
                 System.out.printf(
-                        "O pagamento está atrasado. Multa de 2% por dia de atraso. Valor da prestação = R$%.2f",
+                        "O pagamento está atrasado. Multa de 2%% por dia de atraso. Valor da prestação = R$%.2f",
                         (valor + ((valor * 0.02) * (dia - diaPag))));
             }
 
