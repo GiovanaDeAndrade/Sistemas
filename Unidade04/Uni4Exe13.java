@@ -8,13 +8,13 @@ public class Uni4Exe13 {
 
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("Informe a carta 1: ");
+        System.out.print("Informe a carta 1: ");
         int c1 = sc.nextInt();
 
-        System.out.println("Informe a carta 2: ");
+        System.out.print("Informe a carta 2: ");
         int c2 = sc.nextInt();
 
-        System.out.println("Informe a carta 3: ");
+        System.out.print("Informe a carta 3: ");
         int c3 = sc.nextInt();
 
         int cartasBoas = 0;
@@ -30,14 +30,14 @@ public class Uni4Exe13 {
         }
 
         if(cartasBoas == 1){
-            System.out.println("Truco");
+            System.out.print("Truco");
         } else if(cartasBoas == 2){
-            System.out.println("Seis");
+            System.out.print("Seis");
         } else if(cartasBoas == 3){
-            System.out.println("Nove");
+            System.out.print("Nove");
         }
 
-        System.out.println("Quantidade de cartas boas: " + cartasBoas);
+        System.out.print("Quantidade de cartas boas: " + cartasBoas);
 
     }
 

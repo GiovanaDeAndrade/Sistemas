@@ -8,17 +8,17 @@ public class Uni4Exe09 {
 
         try (Scanner sc = new Scanner(System.in)) {
 
-            System.out.println("Digite um numero: ");
+            System.out.print("Digite um numero: ");
             int n1 = sc.nextInt();
 
-            System.out.println("Digite outro numero: ");
+            System.out.print("Digite outro numero: ");
             int n2 = sc.nextInt();
 
             if (n1 % n2 == 0) {
-                System.out.println("Os valores são multiplos.");
+                System.out.print("Os valores são multiplos.");
 
             } else {
-                System.out.println("Não são multiplos.");
+                System.out.print("Não são multiplos.");
             }
 
         }

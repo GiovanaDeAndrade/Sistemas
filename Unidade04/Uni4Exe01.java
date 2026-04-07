@@ -7,10 +7,10 @@ public class Uni4Exe01 {
 
         try (Scanner sc = new Scanner(System.in)) {
 
-            System.out.println("Entre com as horas trabalhadas no mês: ");
+            System.out.print("Entre com as horas trabalhadas no mês: ");
             float horaMes = sc.nextFloat();
 
-            System.out.println("Qual o valor pago por hora: ");
+            System.out.print("Qual o valor pago por hora: ");
             float horasValor = sc.nextFloat();
 
             float salarioTotal = horaMes * horasValor;
@@ -19,7 +19,7 @@ public class Uni4Exe01 {
                 float salarioExtra = (horaMes - 160) * (horasValor / 2);
                 salarioTotal = salarioTotal + salarioExtra;
 
-                System.out.println("Salario total: " + salarioTotal);
+                System.out.print("Salario total: " + salarioTotal);
 
             } else {
                 System.out.printf("O salario total é: R$%.2f", salarioTotal);

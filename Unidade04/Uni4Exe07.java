@@ -8,7 +8,7 @@ public class Uni4Exe07 {
 
         try (Scanner sc = new Scanner(System.in)) {
 
-            System.out.println("Entre com o peso da carta:");
+            System.out.print("Entre com o peso da carta:");
             float carta = sc.nextFloat();
 
             float pesoExecedido = carta - 50;

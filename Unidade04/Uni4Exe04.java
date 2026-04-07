@@ -8,14 +8,14 @@ public class Uni4Exe04 {
 
         try (Scanner sc = new Scanner(System.in)) {
 
-            System.out.println("Informe um número: ");
+            System.out.print("Informe um número: ");
             float numero = sc.nextFloat();
 
             if (numero % 1 != 0) {
-                System.out.println("Foram digitadas casas decimais.");
+                System.out.print("Foram digitadas casas decimais.");
 
             } else {
-                System.out.println("Não foram digitadas casas decimais.");
+                System.out.print("Não foram digitadas casas decimais.");
             }
 
         }

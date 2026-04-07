@@ -8,22 +8,22 @@ public class Uni4Exe06 {
 
         try (Scanner sc = new Scanner(System.in)) {
 
-            System.out.println("Digite M para Masculino e F para feminino:");
+            System.out.print("Digite M para Masculino e F para feminino:");
             char letra = sc.next().toUpperCase().charAt(0);
 
             if (letra == 'M') {
-                System.out.println("Masculino");
+                System.out.print("Masculino");
 
             } else if (letra == 'F') {
-                System.out.println("Feminino");
+                System.out.print("Feminino");
             }
 
             else if (letra == 'I') {
-                System.out.println("Não informado");
+                System.out.print("Não informado");
             }
 
             else {
-                System.out.println("Entrada Incorreta");
+                System.out.print("Entrada Incorreta");
             }
 
         }

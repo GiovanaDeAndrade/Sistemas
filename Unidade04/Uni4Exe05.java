@@ -8,7 +8,7 @@ public class Uni4Exe05 {
         
         try(Scanner sc = new Scanner(System.in)){
 
-            System.out.println("Você gosta da cor azul?");
+            System.out.print("Você gosta da cor azul?");
             String resposta = sc.next();
 
             boolean azul = false;
@@ -16,11 +16,11 @@ public class Uni4Exe05 {
                 azul = true;
 
             } else {
-                System.out.println("Que feio.");
+                System.out.print("Que feio.");
             }
                 
              if (azul == true){
-                System.out.println("Parabéns");
+                System.out.print("Parabéns");
             
             } 
         }
