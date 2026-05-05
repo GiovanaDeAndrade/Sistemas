@@ -39,6 +39,8 @@ public class Uni4Exe13 {
 
         System.out.print("Quantidade de cartas boas: " + cartasBoas);
 
+        sc.close();
+
     }
 
 }

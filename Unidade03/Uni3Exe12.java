@@ -8,7 +8,6 @@ public class Uni3Exe12 {
     private double INSS;
     private double impostoRenda;
     private double valorHora;
-    private String nome;
     private double horasTrabalhadas;
     private int numeroDependentes;
 
@@ -18,7 +17,6 @@ public class Uni3Exe12 {
         this.INSS = INSS;
         this.dependente = dependente;
         this.impostoRenda = impostoRenda;
-        this.nome = nome;
         this.horasTrabalhadas = horasTrabalhadas;
         this.numeroDependentes = numeroDependentes;
     }
@@ -28,7 +26,8 @@ public class Uni3Exe12 {
     }
 
     public double salarioLiquido() {
-        return (valorHora * horasTrabalhadas) - (((valorHora * horasTrabalhadas) * INSS) + ((valorHora * horasTrabalhadas) * impostoRenda) + (numeroDependentes * dependente));
+        return (valorHora * horasTrabalhadas) - (((valorHora * horasTrabalhadas) * INSS)
+                + ((valorHora * horasTrabalhadas) * impostoRenda) + (numeroDependentes * dependente));
     }
 
     public static void main(String[] args) {
@@ -49,9 +48,13 @@ public class Uni3Exe12 {
             System.out.print("Número de dependentes:");
             int numeroDependentes = sc.nextInt();
 
-            Uni3Exe12 calc = new Uni3Exe12(dependente, INSS, impostoRenda, valorHora, nome, horasTrabalhadas, numeroDependentes);
+            Uni3Exe12 calc = new Uni3Exe12(dependente, INSS, impostoRenda, valorHora, nome, horasTrabalhadas,
+                    numeroDependentes);
 
-            System.out.println("O funcionário " + nome + " possui um salário bruto de R$" + calc.salarioBruto() + " e um salário líquido de R$" + calc.salarioLiquido());
+            System.out.println("O funcionário " + nome + " possui um salário bruto de R$" + calc.salarioBruto()
+                    + " e um salário líquido de R$" + calc.salarioLiquido());
+
+                    sc.close();
         }
     }
 }

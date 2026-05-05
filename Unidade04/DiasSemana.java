@@ -42,6 +42,8 @@ public class DiasSemana {
                 break;
 
                 default: System.out.println("Dia invalido");
+
+                sc.close();
         }
 
     }
