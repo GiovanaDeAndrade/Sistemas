@@ -26,6 +26,7 @@ public class Uni4Exe24 {
                 case 1:
                     
                     if (valor1 > valor2 && valor1 > valor3 && valor2 > valor3) {
+
                         System.out.print(valor3 + " " + valor2 + " " + valor1);
 
                     } else if (valor1 > valor2 && valor1 > valor3 && valor3 > valor2) {
@@ -43,13 +44,13 @@ public class Uni4Exe24 {
                     } else if (valor2 > valor1 && valor2 > valor3 && valor3 > valor1) {
                         System.out.print(valor1 + " " + valor3 + " " + valor2);
                     }
-                   
+
 
                     break;
 
                     case 2:
 
-                     if (valor1 > valor2 && valor1 > valor3 && valor2 > valor3) {
+if (valor1 > valor2 && valor1 > valor3 && valor2 > valor3) {
                         System.out.print(valor1 + " " + valor2 + " " + valor3);
 
                     } else if (valor1 > valor2 && valor1 > valor3 && valor3 > valor2) {
@@ -66,6 +67,12 @@ public class Uni4Exe24 {
 
                     } else if (valor2 > valor1 && valor2 > valor3 && valor3 > valor1) {
                         System.out.print(valor2 + " " + valor3 + " " + valor1);
+                        System.out.println(valor1 + " " + valor2 + " " + valor3);
+                        
+                    } else if ( valor2 > valor1 && valor2 > valor3 && valor1 > valor3){
+                        System.out.println(valor2 + " " + valor1 + " " + valor3);
+
+
                     }
 
                     break;
