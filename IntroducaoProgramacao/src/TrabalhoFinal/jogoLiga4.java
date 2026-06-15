@@ -4,38 +4,66 @@ import java.util.Scanner;
 
 public class jogoLiga4 {
 
-    int tamanhoColuna = 7;
-    int tamanhoLinha = 6;
     private Scanner sc = new Scanner(System.in);
-    private int[] coluna = new int [tamanhoColuna];
-    private int[] linha = new int [tamanhoLinha];
-    int opcao = 0;
+    private String[][] jogo = new String[6][7];
 
+    public jogoLiga4() {
 
-    do 
-        {System.out.println("--- Menu do Jogo ---");
-        System.out.println("1 - Escolher Cor");
-        System.out.println("2 - Escolher coluna");
-        System.out.println("3 - Mostrar o tabuleiro");
-        System.out.println("3 - Mostrar o tabuleiro");
-        
-        case 1:
+        int opcao = 0;
+        do {
+            System.out.println("--- Menu do Jogo ---");
+            System.out.println("1 - Iniciar Jogo");
+            System.out.println("0 - Sair do Jogo");
 
+            opcao = sc.nextInt();
 
+            switch (opcao) {
+                case 1:
+                    iniciarJogo();
 
+                    break;
 
+                case 0:
+                    System.out.println("Obrigada por jogar!");
+
+                    break;
+
+                default:
+                    System.out.println("Opção inválida.");
+                    break;
+            }
 
         } while (opcao != 0);
 
+    }
 
-    public int Tabuleiro(){
-        for(int i = 0; i < 6; i++){
-            System.out.println("Coluna " + coluna[i] + "[ " + "]");
+    public void iniciarJogo(){
+     System.out.println("Escolha entre Vermelho e Azul: ");
+                System.out.println("V = Vermelho");
+                System.out.println("A = Azul");
+                char cor = sc.next().toUpperCase().charAt(0);
+                
 
-            for(i = 0; i <7; i++);
+                if (cor == 'V') {
+                    for(int i = 0; i < jogo.length; i++){
+                        System.out.println("[" + jogo[i] + "]");
+                    
+                    
+                }
+            }
+            }
 
+    public void tabuleiro() {
+        for (int i = 0; i < 6; i++) {
+            System.out.println("Coluna " + jogo[i] + "[ " + "]");
+            
 
         }
+    }
+
+    public static void main(String[] args) {
+        new jogoLiga4();
+
     }
 
 }

@@ -10,7 +10,7 @@ public class ExemploDoWhile {
 
             System.out.println("Escrever");
             linha++;
-        } while (linha <= 1000)  
+        } while (linha <= 10);
           }
 
 }
