@@ -13,8 +13,8 @@ public class Uni6Exe10 {
 
         do {
             System.out.println();
-            System.out.println("Menu");
-            System.out.println("1 - incluir Valor");
+            System.out.println("--- Menu ---");
+            System.out.println("1 - Incluir Valor");
             System.out.println("2 - Pesquisar Valor");
             System.out.println("3 - Alterar Valor");
             System.out.println("4 - Excluir Valores");
@@ -27,42 +27,37 @@ public class Uni6Exe10 {
             // chamo cada metodo conforme o numero escolhido
 
             switch (opcao) {
-                case 1: // incluir valor
-
+                case 1:
                     incluirValor();
-
                     break;
 
-                case 2: // pesquisar
+                case 2:
                     pesquisarValor();
-
                     break;
 
-                case 3: // Alterar valores
+                case 3:
                     alterarValores();
-
                     break;
 
-                case 4: // Excluir valores
+                case 4:
                     excluirValor();
-
                     break;
 
-                case 5:// Mostrar valores
-                    mostrarVetor();
-
+                case 5:
+                    mostrarValores();
                     break;
 
-                case 6: // Ordenar valores
+                case 6:
+                    ordenarValores();
                     break;
 
-                case 7: // inverter valores
+                case 7:
+                    inverterValores();
                     break;
 
                 case 8:
-                    System.out.println("Obrigado por usra nosso sistema!");
+                    System.out.println("Obrigado por usar nosso sistema!");
                     System.out.println("Até mais!");
-
                     break;
 
                 default:
@@ -74,7 +69,7 @@ public class Uni6Exe10 {
     }
 
     private void incluirValor() {
-        if (posicaoFim < posicaoFim) {
+        if (posicaoFim < vetor.length - 1) {
 
             System.out.print("Digite o numero a ser incluído: ");
             int numero = sc.nextInt();
@@ -93,7 +88,7 @@ public class Uni6Exe10 {
         boolean encontrado = false;
         for (int i = 0; i < posicaoFim; i++) {
             if (vetor[i] == numero) {
-                System.out.println("Numero " + numero + " encontrado  ma posição " + i);
+                System.out.println("Numero (" + numero + ") encontrado! Posição(indice): [" + i + "]");
                 encontrado = true;
                 return i;
             }
@@ -107,7 +102,7 @@ public class Uni6Exe10 {
 
     private void alterarValores() {
         int posicao = pesquisarValor();
-        if(posicao != -1){
+        if (posicao != -1) {
             System.out.println("Informe o novo numero: ");
             int numero = sc.nextInt();
             vetor[posicao] = numero;
@@ -116,26 +111,48 @@ public class Uni6Exe10 {
         }
     }
 
-    public void excluirValor(){
+    public void excluirValor() {
         int posicao = pesquisarValor();
-        if(posicao != -1){
-            for(int i=posicao; i<posicaoFim; i++){
-                vetor[i] = vetor[i+1];
+        if (posicao != -1) {
+            for (int i = posicao; i < posicaoFim; i++) {
+                vetor[i] = vetor[i + 1];
             }
             posicaoFim--;
             System.out.println("Valor excluído");
         }
     }
 
-    private void mostrarVetor() {
-        System.out.println("Exibindo o vetor");
+    private void mostrarValores() {
+        System.out.print("Exibindo vetor: ");
         for (int i = 0; i < posicaoFim; i++) {
-            System.out.print("| ");
-            System.out.print(vetor[i]);
-            System.out.print(" |");
-
+            System.out.print("[" + vetor[i] + "]");
         }
+        System.out.println();
+    }
 
+    private void ordenarValores() {
+        for (int i = 0; i < posicaoFim - 1; i++) {
+            for (int j = 0; j < posicaoFim - 1 - i; j++) {
+                if (vetor[j] > vetor[j + 1]) {
+                    int temp = vetor[j];
+                    vetor[j] = vetor[j + 1];
+                    vetor[j + 1] = temp;
+                }
+            }
+        }
+        System.out.println("Vetor ordenado.");
+    }
+
+    private void inverterValores() {
+        int temp = 0;
+        for (int i = 0; i < posicaoFim; i++) {
+            for (int j = 0; j < i; j++) {
+                temp = vetor[i];
+                vetor[i] = vetor[j];
+                vetor[j] = temp;
+            }
+        }
+        System.out.println("Vetor invertido.");
     }
 
     public static void main(String[] args) {
