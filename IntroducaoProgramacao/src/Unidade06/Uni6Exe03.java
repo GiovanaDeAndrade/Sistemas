@@ -14,7 +14,7 @@ public class Uni6Exe03 {
 
         public void lerValores() {
             for (int i = 0; i < 12; i++) {
-                System.out.print("Digite um núemro real: ");
+                System.out.print("Digite um número real: ");
                 valores[i] = sc.nextDouble();
 
             }

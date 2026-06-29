@@ -2,12 +2,12 @@ package Unidade06;
 
 import java.util.Scanner;
 
-public class Uni6Exe10 {
+public class Main {
     private Scanner sc = new Scanner(System.in);
     private int[] vetor = new int[50];
     private int posicaoFim = 0;
 
-    public Uni6Exe10() {
+    public Main() {
 
         int opcao;
 
@@ -156,7 +156,7 @@ public class Uni6Exe10 {
     }
 
     public static void main(String[] args) {
-        new Uni6Exe10();
+        new Main();
     }
 
 }
