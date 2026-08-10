@@ -1,36 +1,67 @@
-# 🎓 Sistemas de Informação — FURB
+<div align="center">
 
-Repositório acadêmico destinado aos exercícios, atividades, provas práticas e projetos desenvolvidos durante a graduação em **Sistemas de Informação na FURB — Universidade Regional de Blumenau**.
+# 🎓 Sistemas de Informação · FURB
 
-O objetivo deste espaço é acompanhar minha evolução ao longo do curso, mantendo os códigos produzidos nas disciplinas organizados e acessíveis para consulta futura.
+### meus estudos, projetos e evolução na graduação ♡
 
-## 📚 Conteúdo do repositório
+`Java` · `Git` · `GitHub` · `Sistemas de Informação`
 
-Aqui estão reunidas atividades desenvolvidas durante as aulas e avaliações, incluindo exercícios de programação, estruturas de dados introdutórias, lógica e projetos práticos.
+</div>
 
-Entre os conteúdos atualmente presentes estão:
+---
 
-- **Prova02** — exercícios e implementação prática em Java;
-- **TrabalhoFinal** — projeto desenvolvido como trabalho acadêmico final da disciplina;
-- demais exercícios e atividades realizados ao longo do semestre.
+## 🌷 Sobre este repositório
 
-> Os códigos deste repositório representam meu processo de aprendizado e são mantidos como foram desenvolvidos durante as atividades acadêmicas.
+Este é o meu espaço acadêmico para guardar exercícios, avaliações e projetos desenvolvidos durante a graduação em **Sistemas de Informação na FURB — Universidade Regional de Blumenau**.
 
-## 💻 Tecnologias
+A ideia é acompanhar minha evolução ao longo do curso e, ao mesmo tempo, manter os trabalhos organizados de uma forma fácil de navegar.
 
-Atualmente, os projetos deste repositório utilizam principalmente:
+## 📚 Disciplinas
 
-- **Java**
-- **Visual Studio Code**
-- **Git & GitHub**
+<table>
+<tr>
+<td width="70%">
 
-## 🎯 Objetivo
+### ☕ Introdução à Programação
 
-Além de armazenar as entregas acadêmicas, este repositório funciona como um registro da minha evolução em programação e desenvolvimento de software ao longo da graduação.
+Primeiros projetos em Java, exercícios de lógica, estruturas de repetição, vetores, matrizes, avaliações e trabalho final.
 
-## 👩‍💻 Autora
+</td>
+<td align="center">
+
+**2026.1**
+
+[`abrir disciplina`](./IntroducaoProgramacao)
+
+</td>
+</tr>
+</table>
+
+> Novas disciplinas serão adicionadas aqui conforme eu avançar no curso.
+
+## ✨ Destaques
+
+| Projeto | Sobre | Acesso |
+|---|---|---|
+| 🎮 **Liga 4** | Trabalho final desenvolvido em Java | [`ver projeto`](./IntroducaoProgramacao/src/TrabalhoFinal) |
+| 📝 **Prova 02** | Exercícios e implementação prática | [`ver códigos`](./IntroducaoProgramacao/src/Prova02) |
+| 🌸 **Unidade 06** | Exercícios com vetores, matrizes e lógica | [`ver códigos`](./IntroducaoProgramacao/src/Unidade06) |
+
+## 🧭 Como navegar
+
+Cada disciplina possui seu próprio README com um índice para as unidades, avaliações e projetos. Assim, os arquivos continuam seguindo a estrutura correta dos projetos Java, mas você não precisa navegar pasta por pasta dentro de `src` para encontrar o que procura.
+
+## 👩‍💻 Sobre mim
 
 **Giovana de Andrade**  
 Estudante de Sistemas de Informação — FURB
 
-[GitHub](https://github.com/GiovanaDeAndrade)
+[`github.com/GiovanaDeAndrade`](https://github.com/GiovanaDeAndrade)
+
+---
+
+<div align="center">
+
+🌱 aprendendo um commit de cada vez
+
+</div>
