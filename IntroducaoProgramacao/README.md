@@ -1,18 +1,56 @@
-## Getting Started
+<div align="center">
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+# ☕ Introdução à Programação
 
-## Folder Structure
+### Sistemas de Informação · FURB
 
-The workspace contains two folders by default, where:
+`Java` · `Lógica de Programação` · `2026.1`
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+</div>
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+---
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## 🌷 Sobre a disciplina
 
-## Dependency Management
+Esta pasta reúne os exercícios, avaliações e projetos desenvolvidos durante **Introdução à Programação**.
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Os códigos estão preservados conforme foram produzidos durante o semestre, funcionando como um registro da minha evolução em Java e lógica de programação.
+
+## 🗂️ Navegação
+
+| Etapa | Conteúdo | Acesso |
+|---|---|---|
+| 🌱 Unidade 02 | Primeiros exercícios, entrada e saída de dados e cálculos | [`ver códigos`](./src/trabalhoUni02) |
+| 🌿 Unidade 05 | Estruturas de repetição e exercícios práticos | [`ver códigos`](./src/Unidade05) |
+| 🌸 Unidade 06 | Vetores, matrizes e aprofundamento da lógica | [`ver códigos`](./src/Unidade06) |
+| 📝 Prova 02 | Questões e parte prática da avaliação | [`ver códigos`](./src/Prova02) |
+| 🎮 Trabalho Final | Projeto final desenvolvido em Java | [`ver projeto`](./src/TrabalhoFinal) |
+
+> Algumas pastas refletem exatamente os nomes utilizados durante as aulas e entregas acadêmicas.
+
+## ✨ Conceitos praticados
+
+- variáveis e tipos de dados;
+- entrada e saída com `Scanner`;
+- estruturas condicionais;
+- laços de repetição;
+- vetores e matrizes;
+- métodos;
+- organização em classes e pacotes;
+- desenvolvimento de pequenos programas em Java.
+
+## 🎮 Projeto em destaque
+
+### Liga 4
+
+O **Trabalho Final** reúne a implementação de um jogo de Liga 4 em Java, utilizando matriz para representar o tabuleiro, interação com o jogador e lógica para controlar as jogadas.
+
+→ [`Abrir Trabalho Final`](./src/TrabalhoFinal)
+
+---
+
+<div align="center">
+
+Feito durante minha graduação em **Sistemas de Informação na FURB** ♡
+
+</div>
