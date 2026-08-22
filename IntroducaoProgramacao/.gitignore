@@ -1,0 +1,7 @@
+# Java compiled files
+bin/
+*.class
+
+# Local/editor files
+.DS_Store
+Thumbs.db
