@@ -1,0 +1,28 @@
+20 PROJETOS COMPLETOS - verificacao em 05/11/2026
+
+260 fontes compilados com --release 8.
+
+OK - Loja e precificação: calculos, cadastro, alteracao, exclusao e validacoes | Menu completo OK
+OK - Loja de vendedores e comissões: calculos, cadastro, alteracao, exclusao e validacoes | Menu completo OK
+OK - Folha de pagamento: calculos, cadastro, alteracao, exclusao e validacoes | Menu completo OK
+OK - Biblioteca e empréstimos: calculos, cadastro, alteracao, exclusao e validacoes | Menu completo OK
+OK - Locadora de veículos: calculos, cadastro, alteracao, exclusao e validacoes | Menu completo OK
+OK - Hotel e reservas: calculos, cadastro, alteracao, exclusao e validacoes | Menu completo OK
+OK - Restaurante e comandas: calculos, cadastro, alteracao, exclusao e validacoes | Menu completo OK
+OK - Bilheteria de eventos: calculos, cadastro, alteracao, exclusao e validacoes | Menu completo OK
+OK - Estacionamento e permanências: calculos, cadastro, alteracao, exclusao e validacoes | Menu completo OK
+OK - Transportadora e fretes: calculos, cadastro, alteracao, exclusao e validacoes | Menu completo OK
+OK - Escola de cursos e matrículas: calculos, cadastro, alteracao, exclusao e validacoes | Menu completo OK
+OK - Academia e planos: calculos, cadastro, alteracao, exclusao e validacoes | Menu completo OK
+OK - Pet shop e atendimentos: calculos, cadastro, alteracao, exclusao e validacoes | Menu completo OK
+OK - Oficina e ordens de serviço: calculos, cadastro, alteracao, exclusao e validacoes | Menu completo OK
+OK - Delivery e pedidos: calculos, cadastro, alteracao, exclusao e validacoes | Menu completo OK
+OK - Simulador de consumo de energia: calculos, cadastro, alteracao, exclusao e validacoes | Menu completo OK
+OK - Assinaturas de conteúdo: calculos, cadastro, alteracao, exclusao e validacoes | Menu completo OK
+OK - Organização de eventos: calculos, cadastro, alteracao, exclusao e validacoes | Menu completo OK
+OK - Gráfica e trabalhos: calculos, cadastro, alteracao, exclusao e validacoes | Menu completo OK
+OK - Agência de turismo e pacotes: calculos, cadastro, alteracao, exclusao e validacoes | Menu completo OK
+
+Fronteiras de desconto por volume, frete gratis, sessao gratuita, tolerancia de multa e primeira hora gratuita verificadas.
+
+Swing: fontes compilados; janelas nao abertas por ausencia de ambiente grafico. Ha roteiro manual nos READMEs.

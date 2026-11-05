@@ -1,0 +1,13 @@
+src/estudo/t19/Main.java
+src/estudo/t19/Teste.java
+src/estudo/t19/excecao/OperacaoInvalidaException.java
+src/estudo/t19/modelo/Calculavel.java
+src/estudo/t19/modelo/ImpressaoSimples.java
+src/estudo/t19/modelo/ImpressaoVolume.java
+src/estudo/t19/modelo/Solicitante.java
+src/estudo/t19/modelo/Trabalho.java
+src/estudo/t19/modelo/Validacao.java
+src/estudo/t19/repositorio/Repositorio.java
+src/estudo/t19/servico/Servico.java
+src/estudo/t19/visao/Console.java
+src/estudo/t19/visao/Tela.java

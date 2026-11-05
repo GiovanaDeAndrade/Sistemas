@@ -1,0 +1,13 @@
+src/estudo/t17/Main.java
+src/estudo/t17/Teste.java
+src/estudo/t17/excecao/OperacaoInvalidaException.java
+src/estudo/t17/modelo/Assinante.java
+src/estudo/t17/modelo/Assinatura.java
+src/estudo/t17/modelo/AssinaturaBasica.java
+src/estudo/t17/modelo/AssinaturaFamilia.java
+src/estudo/t17/modelo/Calculavel.java
+src/estudo/t17/modelo/Validacao.java
+src/estudo/t17/repositorio/Repositorio.java
+src/estudo/t17/servico/Servico.java
+src/estudo/t17/visao/Console.java
+src/estudo/t17/visao/Tela.java

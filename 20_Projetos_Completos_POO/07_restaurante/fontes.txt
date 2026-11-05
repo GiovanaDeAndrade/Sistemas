@@ -1,0 +1,13 @@
+src/estudo/t07/Main.java
+src/estudo/t07/Teste.java
+src/estudo/t07/excecao/OperacaoInvalidaException.java
+src/estudo/t07/modelo/Calculavel.java
+src/estudo/t07/modelo/Comanda.java
+src/estudo/t07/modelo/ComandaBalcao.java
+src/estudo/t07/modelo/ComandaMesa.java
+src/estudo/t07/modelo/Mesa.java
+src/estudo/t07/modelo/Validacao.java
+src/estudo/t07/repositorio/Repositorio.java
+src/estudo/t07/servico/Servico.java
+src/estudo/t07/visao/Console.java
+src/estudo/t07/visao/Tela.java

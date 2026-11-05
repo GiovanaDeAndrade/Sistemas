@@ -1,0 +1,13 @@
+src/estudo/t16/Main.java
+src/estudo/t16/Teste.java
+src/estudo/t16/excecao/OperacaoInvalidaException.java
+src/estudo/t16/modelo/Calculavel.java
+src/estudo/t16/modelo/Consumo.java
+src/estudo/t16/modelo/ConsumoComercial.java
+src/estudo/t16/modelo/ConsumoResidencial.java
+src/estudo/t16/modelo/Unidade.java
+src/estudo/t16/modelo/Validacao.java
+src/estudo/t16/repositorio/Repositorio.java
+src/estudo/t16/servico/Servico.java
+src/estudo/t16/visao/Console.java
+src/estudo/t16/visao/Tela.java

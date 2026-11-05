@@ -1,0 +1,13 @@
+src/estudo/t10/Main.java
+src/estudo/t10/Teste.java
+src/estudo/t10/excecao/OperacaoInvalidaException.java
+src/estudo/t10/modelo/Calculavel.java
+src/estudo/t10/modelo/Destinatario.java
+src/estudo/t10/modelo/Frete.java
+src/estudo/t10/modelo/FreteExpresso.java
+src/estudo/t10/modelo/FreteNormal.java
+src/estudo/t10/modelo/Validacao.java
+src/estudo/t10/repositorio/Repositorio.java
+src/estudo/t10/servico/Servico.java
+src/estudo/t10/visao/Console.java
+src/estudo/t10/visao/Tela.java

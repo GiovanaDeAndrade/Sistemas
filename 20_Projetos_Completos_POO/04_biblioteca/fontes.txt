@@ -1,0 +1,13 @@
+src/estudo/t04/Main.java
+src/estudo/t04/Teste.java
+src/estudo/t04/excecao/OperacaoInvalidaException.java
+src/estudo/t04/modelo/Calculavel.java
+src/estudo/t04/modelo/Emprestimo.java
+src/estudo/t04/modelo/EmprestimoComum.java
+src/estudo/t04/modelo/EmprestimoEstudante.java
+src/estudo/t04/modelo/Leitor.java
+src/estudo/t04/modelo/Validacao.java
+src/estudo/t04/repositorio/Repositorio.java
+src/estudo/t04/servico/Servico.java
+src/estudo/t04/visao/Console.java
+src/estudo/t04/visao/Tela.java

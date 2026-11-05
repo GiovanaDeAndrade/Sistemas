@@ -1,0 +1,13 @@
+src/estudo/t08/Main.java
+src/estudo/t08/Teste.java
+src/estudo/t08/excecao/OperacaoInvalidaException.java
+src/estudo/t08/modelo/Calculavel.java
+src/estudo/t08/modelo/Comprador.java
+src/estudo/t08/modelo/IngressoInteiro.java
+src/estudo/t08/modelo/IngressoMeia.java
+src/estudo/t08/modelo/Validacao.java
+src/estudo/t08/modelo/VendaIngresso.java
+src/estudo/t08/repositorio/Repositorio.java
+src/estudo/t08/servico/Servico.java
+src/estudo/t08/visao/Console.java
+src/estudo/t08/visao/Tela.java

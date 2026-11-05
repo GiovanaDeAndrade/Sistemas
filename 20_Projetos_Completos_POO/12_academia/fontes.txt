@@ -1,0 +1,13 @@
+src/estudo/t12/Main.java
+src/estudo/t12/Teste.java
+src/estudo/t12/excecao/OperacaoInvalidaException.java
+src/estudo/t12/modelo/Associado.java
+src/estudo/t12/modelo/Calculavel.java
+src/estudo/t12/modelo/Plano.java
+src/estudo/t12/modelo/PlanoFidelidade.java
+src/estudo/t12/modelo/PlanoMensal.java
+src/estudo/t12/modelo/Validacao.java
+src/estudo/t12/repositorio/Repositorio.java
+src/estudo/t12/servico/Servico.java
+src/estudo/t12/visao/Console.java
+src/estudo/t12/visao/Tela.java

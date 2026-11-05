@@ -1,0 +1,13 @@
+src/estudo/t02/Main.java
+src/estudo/t02/Teste.java
+src/estudo/t02/excecao/OperacaoInvalidaException.java
+src/estudo/t02/modelo/Calculavel.java
+src/estudo/t02/modelo/Loja.java
+src/estudo/t02/modelo/Validacao.java
+src/estudo/t02/modelo/Vendedor.java
+src/estudo/t02/modelo/VendedorExterno.java
+src/estudo/t02/modelo/VendedorInterno.java
+src/estudo/t02/repositorio/Repositorio.java
+src/estudo/t02/servico/Servico.java
+src/estudo/t02/visao/Console.java
+src/estudo/t02/visao/Tela.java
