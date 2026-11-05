@@ -1,0 +1,25 @@
+Verificacao em 05/11/2026
+
+01: compilacao OK (compatibilidade Java 8). Execucao e resultado conferidos.
+02: compilacao OK (compatibilidade Java 8). Execucao e resultado conferidos.
+03: compilacao OK (compatibilidade Java 8). Execucao e resultado conferidos.
+04: compilacao OK (compatibilidade Java 8). Execucao e resultado conferidos.
+05: compilacao OK (compatibilidade Java 8). Execucao e resultado conferidos.
+06: compilacao OK (compatibilidade Java 8). Execucao e resultado conferidos.
+07: compilacao OK (compatibilidade Java 8). Execucao e resultado conferidos.
+08: compilacao OK (compatibilidade Java 8). Execucao e resultado conferidos.
+09: compilacao OK (compatibilidade Java 8). Execucao e resultado conferidos.
+10: compilacao OK (compatibilidade Java 8). Execucao e resultado conferidos.
+11: compilacao OK (compatibilidade Java 8). Execucao e resultado conferidos.
+12: compilacao OK (compatibilidade Java 8). Execucao e resultado conferidos.
+13: compilacao OK (compatibilidade Java 8). Execucao e resultado conferidos.
+14: compilacao OK (compatibilidade Java 8). Execucao e resultado conferidos.
+15: compilacao OK (compatibilidade Java 8). Execucao e resultado conferidos.
+16: compilacao OK (compatibilidade Java 8). Execucao e resultado conferidos.
+17: compilacao OK (compatibilidade Java 8). Janela nao executada (ambiente sem display).
+18: compilacao OK (compatibilidade Java 8). Janela nao executada (ambiente sem display).
+19: compilacao OK (compatibilidade Java 8). Janela nao executada (ambiente sem display).
+20: compilacao OK (compatibilidade Java 8). Janela nao executada (ambiente sem display).
+20: regras de cadastro, duplicidade sem diferenciar maiusculas, nome vazio, preco negativo e copia da lista verificadas sem GUI.
+
+Os roteiros de interacao das telas estao no LEIA-ME de cada modelo.
